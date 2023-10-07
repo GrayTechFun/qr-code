@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #d5e1ef;
+}
+
+.wrapper {
+  width: 32em;
+  display: flex;
+  flex-direction: column;
+  margin: 15em auto;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+img {
+  width: 28.8em;
+  height: 28.8em;
+  margin: 1.6em auto;
+}
+
+h1 {
+  color: #1f314f;
+  font-size: 2.2rem;
+  margin: 0 1.6em;
+}
+
+p {
+  color: #7d889e;
+  font-size: 1.5rem;
+  padding: 0 2em;
+  margin: 1em 1.6em 3em;
+}
+
+h1,
+p {
+  text-align: center;
+}
